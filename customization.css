@@ -1,0 +1,41 @@
+/** css base by catcumber **/
+
+/**IMPORT FONTS HERE**/
+@import url('https://fonts.googleapis.com/css2?family=Gaegu&display=swap');
+@import url("https://cdn.statically.io/gh/cucumber-cat/CatcumbersFontPackage/main/fonts.css");
+
+@font-face {
+    font-family: mother tongue;
+    src: url("https://db.onlinewebfonts.com/t/75defa846b9e06f7448c769a448ad205.eot");
+    src: url("https://db.onlinewebfonts.com/t/75defa846b9e06f7448c769a448ad205.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/75defa846b9e06f7448c769a448ad205.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/75defa846b9e06f7448c769a448ad205.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/75defa846b9e06f7448c769a448ad205.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/75defa846b9e06f7448c769a448ad205.svg#Mother Tongue - Personal Use")format("svg");
+}
+
+/********************/
+
+:root {
+--bfont:morning glory; /*base font, used for entry text, etc. (use the name of AN ALREADY IMPORTED FONT)
+--hfont:mother tongue; /* header font, used for the header of the blog (use the name of AN ALREADY IMPORTED FONT)
+--ehfont:gaegu; /*entry header font, used for the title of each entry (use the name of AN ALREADY IMPORTED FONT)
+--sfont:rubber ducks; /* side font, font used for the sidebar (use the name of AN ALREADY IMPORTED FONT)
+--nfont:gaegu; /*navigation font, used for navigation bar (use the name of AN ALREADY IMPORTED FONT)
+--text:#697951; /*main text color (USE HEX CODES)
+--bg:#EAF0CF; /*primary background color (USE HEX CODES)
+--bglight:#BAD097; /*typically lighter shade of the background color. However, can be reversed to be darker if a dark mode css is desired (USE HEX CODES)
+--bgdark:#EAF0CF; /*typically darker shade of the background color. However, can be reversed to be lighter if a dark mode css is desired (USE HEX CODES)
+--icontext:#fff; /*color of the text on icons such as the hide heading or tip header, also used for the navigation bar (USE HEX CODES)
+--sectionbg:#BAD097; /*the background color of major sections of the blog, such as the entries and side bar (USE HEX CODES)
+--user_end: " ♪"; /* decoration at the end of a username (KEEP IN STRING FORMAT)
+--cssfooter:"base.css by catcumber"; /* footnote at the bottom of the page (KEEP IN STRING FORMAT)
+--postcommenttext:"post a comment"; /* the text for posting a comment (KEEP IN STRING FORMAT)
+--topwidgetcontent:"top widget text"; /* the text in the widget above the entries but below the header (KEEP IN STRING FORMAT)
+--bgimage:url(https://i.ibb.co/fFcpfYC/Screenshot-2025-01-20-at-6-58-44-PM.png); /* background image of the css, KEEP IN THE FORM url(https://directimagelink.png)
+--entrytitleleft:"ʚ ";/* optional decoration on the left of the title of each post (KEEP IN STRING FORMAT)
+--entrytitleright:" ɞ"; /* optional decoration on the right of the title of each post (KEEP IN STRING FORMAT)
+--postentrytext:"new entry"; /* text for posting new entry (KEEP IN STRING FORMAT)
+--buttonbg:url(https://i.ibb.co/Y4xj3B2C/Screenshot-2025-02-23-at-12-18-21-PM.png); /* background image of the buttons in the hotbar of the post editing screen, KEEP IN THE FORM url(https://directimagelink.png)
+}
+
