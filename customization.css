@@ -13,8 +13,9 @@
     url("https://db.onlinewebfonts.com/t/75defa846b9e06f7448c769a448ad205.ttf")format("truetype"),
     url("https://db.onlinewebfonts.com/t/75defa846b9e06f7448c769a448ad205.svg#Mother Tongue - Personal Use")format("svg");
 }
-
 /********************/
+
+/**CUSTOMIZATION**/
 
 :root {
 --bfont:morning glory; /*base font, used for entry text, etc. (use the name of AN ALREADY IMPORTED FONT)
@@ -38,4 +39,7 @@
 --postentrytext:"new entry"; /* text for posting new entry (KEEP IN STRING FORMAT)
 --buttonbg:url(https://i.ibb.co/Y4xj3B2C/Screenshot-2025-02-23-at-12-18-21-PM.png); /* background image of the buttons in the hotbar of the post editing screen, KEEP IN THE FORM url(https://directimagelink.png)
 }
-
+/********************/
+    
+/** DO NOT EDIT THE FOLLOWING LINE**/
+@import url('https://cdn.statically.io/gh/cucumber-cat/css-template/main/base.css');
